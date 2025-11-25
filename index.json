@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-24T11:44:42.226Z",
+  "files": {
+    "aiTerms": {
+      "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/cdn/v1/ai_terms.json",
+      "sha256": "39b97215cec5a6ebaa791892dcd954a8b37838caf06d7bfdb7794f404dc58914",
+      "size": 1916
+    },
+    "aiWidgetSelectors": {
+      "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/cdn/v1/ai_widget_selectors.json",
+      "sha256": "93dd6732eaa955993a15ba400e3ee1e1e66ba9efd48db725ff9ff4a4bc43c511",
+      "size": 5418
+    },
+    "cookiePatterns": {
+      "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/cdn/v1/cookie_patterns.json",
+      "sha256": "3943c95bec7e1c85e27156cd03dff28d16389ff346efbdd2bde9f6da99249747",
+      "size": 6058
+    },
+    "killList": {
+      "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/cdn/v1/kill_list.json",
+      "sha256": "ba2a1ebe0135ae8f829698ebc4873950d0c6464c33469595c313cc8e6ccdbb9e",
+      "size": 35404
+    },
+    "preserveList": {
+      "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/cdn/v1/preserve_list.json",
+      "sha256": "091c81ad31b54a601f45178370c48d5f430acf03f2a0ffac8561ac3cc4d86b48",
+      "size": 2865
+    }
+  }
+}

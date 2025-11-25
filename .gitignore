@@ -1,0 +1,30 @@
+# Dépendances
+node_modules/
+package-lock.json
+
+# Fichiers système
+.DS_Store
+._*
+Thumbs.db
+
+# Fichiers Chrome
+_metadata/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.cache/
+
+# Fichiers de développement
+.vscode/
+.idea/
+
+# Ne pas pousser les fichiers enrichissement (trop lourds)
+listes à implémenter pour enrichissement/
+
+# Scripts temporaires
+setup_github_sync.sh

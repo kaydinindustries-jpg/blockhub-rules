@@ -1,0 +1,1059 @@
+{
+  "comment": "Kill-list: Manually curated DOM elements to surgically block (ads, AI terms, widgets, cookies). Copy entries exactly from DevTools with as much context as possible.",
+  "version": "1.2",
+  "lastUpdated": "2025-11-23T15:40:00Z",
+  "locales": [
+    "GLOBAL",
+    "EN",
+    "FR",
+    "DE",
+    "ES",
+    "IT",
+    "PT",
+    "NL",
+    "PL",
+    "JA",
+    "KO",
+    "ZH"
+  ],
+  "ads": [
+    {
+      "locale": "GLOBAL",
+      "title": "===== GLOBAL / ALL LANGUAGES =====",
+      "entries": []
+    },
+    {
+      "locale": "EN",
+      "title": "===== EN / ENGLISH =====",
+      "entries": [
+        {
+          "id": "youtube-ads-enrichment-1",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#rendering-content > square-image-layout-view-model",
+          "cssPath": "#rendering-content > square-image-layout-view-model",
+          "jsPath": "document.querySelector(\"#rendering-content > square-image-layout-view-model\")",
+          "outerHTML": null,
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-2",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#rendering-content",
+          "cssPath": "#rendering-content",
+          "jsPath": "document.querySelector(\"#rendering-content\")",
+          "outerHTML": null,
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-3",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#fulfilled-layout > ytd-in-feed-ad-layout-renderer",
+          "cssPath": "#fulfilled-layout > ytd-in-feed-ad-layout-renderer",
+          "jsPath": "document.querySelector(\"#fulfilled-layout > ytd-in-feed-ad-layout-renderer\")",
+          "outerHTML": "</ytd-in-feed-ad-layout-renderer>",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-4",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#fulfilled-layout",
+          "cssPath": "#fulfilled-layout",
+          "jsPath": "document.querySelector(\"#fulfilled-layout\")",
+          "outerHTML": "</ytd-in-feed-ad-layout-renderer></div>",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-5",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#header",
+          "cssPath": "#header",
+          "jsPath": "document.querySelector(\"#header\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-6",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#header > panel-ad-header-image-lockup-view-model",
+          "cssPath": "#header > panel-ad-header-image-lockup-view-model",
+          "jsPath": "document.querySelector(\"#header > panel-ad-header-image-lockup-view-model\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-7",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#panels > ytd-engagement-panel-section-list-renderer:nth-child(3)",
+          "cssPath": "#panels > ytd-engagement-panel-section-list-renderer:nth-child(3)",
+          "jsPath": "document.querySelector(\"#panels > ytd-engagement-panel-section-list-renderer:nth-child(3)\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-8",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#contents > ytd-rich-item-renderer:nth-child(6)",
+          "cssPath": "#contents > ytd-rich-item-renderer:nth-child(6)",
+          "jsPath": "document.querySelector(\"#contents > ytd-rich-item-renderer:nth-child(6)\")",
+          "outerHTML": "</ytd-in-feed-ad-layout-renderer></div>\n</ytd-ad-slot-renderer></div>\n<yt-interaction id=\"interaction\" class=\"extended rounded-large style-scope ytd-rich-item-renderer\"><!--css-build:shady--><!--css_build_scope:yt-interaction--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_interaction.yt.interaction.css.js--><div class=\"stroke style-scope yt-interaction\"></div><div class=\"fill style-scope yt-interaction\"></div></yt-interaction>\n</ytd-rich-item-renderer>",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-9",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div > yt-touch-feedback-shape",
+          "cssPath": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div > yt-touch-feedback-shape",
+          "jsPath": "document.querySelector(\"#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div > yt-touch-feedback-shape\")",
+          "outerHTML": "<yt-touch-feedback-shape aria-hidden=\"true\" class=\"yt-spec-touch-feedback-shape yt-spec-touch-feedback-shape--touch-response yt-spec-touch-feedback-shape--thumbnail-size-large yt-spec-touch-feedback-shape--trigger-events\"><div class=\"yt-spec-touch-feedback-shape__stroke\"></div><div class=\"yt-spec-touch-feedback-shape__fill\"></div></yt-touch-feedback-shape>",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-ads-enrichment-10",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div",
+          "cssPath": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div",
+          "jsPath": "document.querySelector(\"#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        }
+      ]
+    },
+    {
+      "locale": "FR",
+      "title": "===== FR / FRANÇAIS =====",
+      "entries": [
+        {
+          "id": "ads-leparking-fabster-player",
+          "site": "leparking.fr",
+          "feature": "Fabster/Pepsia floating video ad",
+          "url": "https://www.leparking.fr/",
+          "selector": ".pepsia_player, .fabster_player",
+          "cssPath": ".left-fiche .pepsia_player",
+          "jsPath": "document.querySelector('.pepsia_player, .fabster_player')",
+          "outerHTML": "<div class=\"pepsia_player fabster_player\" data-token=\"00ev\" data-popup=\"bottom-left\" data-template=\"light\">...</div>",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {
+            "id": "fabster_player",
+            "class": "pepsia_player"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-token",
+              "data-popup",
+              "data-autoplay"
+            ],
+            "notes": "Injected iframe with id starting with fabster_player_screen"
+          },
+          "notes": "Video ad player injected directly inside listing pages, floating over the main content"
+        }
+      ]
+    },
+    {
+      "locale": "DE",
+      "title": "===== DE / DEUTSCH =====",
+      "entries": []
+    },
+    {
+      "locale": "ES",
+      "title": "===== ES / ESPAÑOL =====",
+      "entries": []
+    },
+    {
+      "locale": "IT",
+      "title": "===== IT / ITALIANO =====",
+      "entries": []
+    },
+    {
+      "locale": "PT",
+      "title": "===== PT / PORTUGUÊS =====",
+      "entries": []
+    },
+    {
+      "locale": "NL",
+      "title": "===== NL / NEDERLANDS =====",
+      "entries": []
+    },
+    {
+      "locale": "PL",
+      "title": "===== PL / POLSKI =====",
+      "entries": []
+    },
+    {
+      "locale": "JA",
+      "title": "===== JA / 日本語 =====",
+      "entries": []
+    },
+    {
+      "locale": "KO",
+      "title": "===== KO / 한국어 =====",
+      "entries": []
+    },
+    {
+      "locale": "ZH",
+      "title": "===== ZH / 中文 =====",
+      "entries": []
+    }
+  ],
+  "aiTerms": [
+    {
+      "locale": "GLOBAL",
+      "title": "===== GLOBAL / ALL LANGUAGES =====",
+      "entries": []
+    },
+    {
+      "locale": "EN",
+      "title": "===== EN / ENGLISH =====",
+      "entries": []
+    },
+    {
+      "locale": "FR",
+      "title": "===== FR / FRANÇAIS =====",
+      "entries": []
+    },
+    {
+      "locale": "DE",
+      "title": "===== DE / DEUTSCH =====",
+      "entries": []
+    },
+    {
+      "locale": "ES",
+      "title": "===== ES / ESPAÑOL =====",
+      "entries": []
+    },
+    {
+      "locale": "IT",
+      "title": "===== IT / ITALIANO =====",
+      "entries": []
+    },
+    {
+      "locale": "PT",
+      "title": "===== PT / PORTUGUÊS =====",
+      "entries": []
+    },
+    {
+      "locale": "NL",
+      "title": "===== NL / NEDERLANDS =====",
+      "entries": []
+    },
+    {
+      "locale": "PL",
+      "title": "===== PL / POLSKI =====",
+      "entries": []
+    },
+    {
+      "locale": "JA",
+      "title": "===== JA / 日本語 =====",
+      "entries": []
+    },
+    {
+      "locale": "KO",
+      "title": "===== KO / 한국어 =====",
+      "entries": []
+    },
+    {
+      "locale": "ZH",
+      "title": "===== ZH / 中文 =====",
+      "entries": []
+    }
+  ],
+  "aiWidgets": [
+    {
+      "locale": "GLOBAL",
+      "title": "===== GLOBAL / ALL LANGUAGES =====",
+      "entries": [
+        {
+          "id": "aiwidgets-global-google-gemini-launcher",
+          "site": "google.com",
+          "feature": "Google header Gemini launcher button",
+          "url": "https://www.google.com/",
+          "selector": "#gb > div.gb_Kd.gb_Nd.gb_Zd > div.gb_Sd.gb_1d.gb_Le.gb_Ve.gb_1e > div.gb_v.gb_re.bGJ > div:nth-child(4) > div",
+          "cssPath": "#gb div.gb_v.gb_re.bGJ div:nth-child(4) div.r4vW1e",
+          "jsPath": "document.querySelector('#gb > div.gb_Kd.gb_Nd.gb_Zd > div.gb_Sd.gb_1d.gb_Le.gb_Ve.gb_1e > div.gb_v.gb_re.bGJ > div:nth-child(4) > div')",
+          "outerHTML": "<div class=\"r4vW1e e5IPTd\" data-rp-placement-id=\"gemkick-pep-icon-callout-id\"><span data-is-tooltip-wrapper=\"true\"><button class=\"VYBDae-JX-I\" aria-label=\"Try Gemini\">...</button><div role=\"tooltip\">Try Gemini</div></span></div>",
+          "text": "Try Gemini",
+          "textContains": "Try Gemini",
+          "fallbackPatterns": {
+            "dataAttribute": "data-rp-placement-id=gemkick-pep-icon-callout-id",
+            "ariaLabel": "Try Gemini"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-rp-placement-id",
+              "aria-label",
+              "jscontroller"
+            ],
+            "notes": "Gemini promo button in the Google header chrome that opens the side panel on all Google properties."
+          },
+          "notes": "Global rule to hide the Gemini launcher pill that appears across Google surfaces so the header stays uncluttered."
+        }
+      ]
+    },
+    {
+      "locale": "EN",
+      "title": "===== EN / ENGLISH =====",
+      "entries": [
+        {
+          "id": "aiwidgets-google-search-ai-mode-button",
+          "site": "google.com",
+          "feature": "Google Search AI Mode toggle",
+          "url": "https://www.google.com/",
+          "selector": "body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div.SDkEP > div.fM33ce.dRYYxd > button",
+          "cssPath": "body div.L3eUgb div.o3j99 form div.A8SBwf div.RNNXgb div.SDkEP div.fM33ce.dRYYxd button.plR5qb",
+          "jsPath": "document.querySelector('body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div.SDkEP > div.fM33ce.dRYYxd > button')",
+          "outerHTML": "<button class=\"plR5qb\" role=\"link\" type=\"button\" data-ved=\"...\">AI Mode</button>",
+          "text": "AI Mode",
+          "textContains": "AI Mode",
+          "fallbackPatterns": {
+            "class": "plR5qb",
+            "text": "AI Mode"
+          },
+          "fingerprints": {
+            "attributes": [
+              "jsname",
+              "jscontroller",
+              "data-ved"
+            ],
+            "notes": "Rounded button injected to the right of the Google search bar, shows gradient halo on hover."
+          },
+          "notes": "Remove the AI shortcut so the SERP stays purely organic. Visible on en-US google.com search homepage."
+        },
+        {
+          "id": "aiwidgets-google-search-ai-overview-panel",
+          "site": "google.com/search",
+          "feature": "Google AI Overview answer block",
+          "url": "https://www.google.com/search",
+          "selector": "#Odp5De > div:nth-child(1)",
+          "cssPath": "#Odp5De > div:nth-child(1)",
+          "jsPath": "document.querySelector('#Odp5De > div:nth-child(1)')",
+          "outerHTML": "<div id=\"Odp5De\"><div data-pcu=\"AI_OVERVIEW\">...</div></div>",
+          "text": "AI Overview",
+          "textContains": "AI Overview",
+          "fallbackPatterns": {
+            "id": "Odp5De",
+            "dataAttribute": "data-pcu=AI_OVERVIEW"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-pcu",
+              "data-async-context"
+            ],
+            "notes": "Large card above organic results labelled “AI Overview”."
+          },
+          "notes": "Blocks the generative answer card that appears on AI Overviews for eligible queries."
+        },
+        {
+          "id": "aiwidgets-google-search-ai-mode-disclaimer",
+          "site": "google.com/search",
+          "feature": "Generative AI disclaimer + action bar",
+          "url": "https://www.google.com/search?q=how+many+x+rays+is+too+many",
+          "selector": "#folsrch-sqf-1 > div.F0OfWd",
+          "cssPath": "#folsrch-sqf-1 div.F0OfWd",
+          "jsPath": "document.querySelector('#folsrch-sqf-1 > div.F0OfWd')",
+          "outerHTML": "<div class=\"F0OfWd\" data-subtree=\"dfa\"><div class=\"wc5K8d\">This is for informational purposes only... AI responses may include mistakes. <a ...>Learn more</a></div><div class=\"x2qcTc fZavHb\">...</div></div>",
+          "text": "Dive deeper in AI Mode",
+          "textContains": "AI responses may include mistakes",
+          "fallbackPatterns": {
+            "class": "F0OfWd",
+            "text": "AI responses may include mistakes"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-subtree",
+              "jscontroller",
+              "data-uq"
+            ],
+            "notes": "Block contains disclaimers plus Copy/Export buttons, feedback toggles, and “Dive deeper in AI Mode”."
+          },
+          "notes": "Removes the disclaimer/toolbelt rendered directly under the AI Overview card so the SERP stays neutral."
+        },
+        {
+          "id": "aiwidgets-google-search-ai-mode-navchip",
+          "site": "google.com/search",
+          "feature": "AI Mode navigation pill under search bar",
+          "url": "https://www.google.com/search?q=how+many+x+rays+is+too+many",
+          "selector": "#_CtYiafKrN9KKptQPk7-qoAw_109 > div.HTOhZ > div > div > div.beZ0tf.O1uzAe > div:nth-child(1) > div > div",
+          "cssPath": "div.beZ0tf.O1uzAe div:nth-child(1) div div.olrp5b",
+          "jsPath": "document.querySelector('#_CtYiafKrN9KKptQPk7-qoAw_109 > div.HTOhZ > div > div > div.beZ0tf.O1uzAe > div:nth-child(1) > div > div')",
+          "outerHTML": "<div class=\"olrp5b\" data-fbs=\"...\"><a class=\"XVMlrc C6AK7c\" href=\"/search?...&amp;udm=50&amp;...\"><div class=\"mXwfNd\"><div class=\"mVH5Fc\"><span class=\"R1QWuf\">AI Mode</span></div></div></a></div>",
+          "text": "AI Mode",
+          "textContains": "AI Mode",
+          "fallbackPatterns": {
+            "class": "olrp5b",
+            "text": "AI Mode"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-fbs",
+              "data-ved"
+            ],
+            "notes": "Appears in the navigation bar next to tabs like All/Images/Shopping; clicking switches to the AI-only SERP."
+          },
+          "notes": "Hides the AI Mode navigation pill so the classic tab row stays unchanged."
+        },
+        {
+          "id": "aiwidgets-google-shopping-ask-anything-ai-mode",
+          "site": "shopping.google.com",
+          "feature": "Google Shopping detail card AI prompt bar",
+          "url": "https://www.google.com/search?udm=28&oshopproduct=gid:5670086383510924121",
+          "selector": "#rSanR > div.iQYbye > div > div > div > div.zxYWDc.q9kVJb > div > div.l060z.imucI",
+          "cssPath": "#rSanR div.zxYWDc.q9kVJb div.l060z.imucI",
+          "jsPath": "document.querySelector('#rSanR > div.iQYbye > div > div > div > div.zxYWDc.q9kVJb > div > div.l060z.imucI')",
+          "outerHTML": "<div class=\"l060z imucI\" data-ved=\"...\"><div class=\"Sd2Bx\"><h3 class=\"y8JFS wTJCWe\"><span>Ask anything in AI Mode</span></h3></div><div jscontroller=\"WGB9xd\">...<textarea class=\"BguhUb\" placeholder=\"Ask anything\"></textarea>...</div></div>",
+          "text": "Ask anything in AI Mode",
+          "textContains": "Ask anything in AI Mode",
+          "fallbackPatterns": {
+            "class": "l060z",
+            "text": "Ask anything in AI Mode"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-ved",
+              "data-hveid",
+              "jscontroller"
+            ],
+            "notes": "Appears inside individual Shopping product cards between reviews and similar items; includes textarea + send icon."
+          },
+          "notes": "Removes the AI chat injection inside Shopping so product pages stay neutral."
+        },
+        {
+          "id": "aiwidgets-bing-home-copilot-launcher",
+          "site": "bing.com",
+          "feature": "Bing Copilot circular launcher next to search box",
+          "url": "https://www.bing.com/",
+          "selector": "#hp_app > div > div.hpl.hp_cont > div.sbox_sl.cdxShowConv.centralized.sbox_larger.sb_expanded_wrapper > a",
+          "cssPath": "#hp_app div.sbox_sl.cdxShowConv.centralized.sbox_larger.sb_expanded_wrapper > a.cdxConv_slsboxl",
+          "jsPath": "document.querySelector('#hp_app > div > div.hpl.hp_cont > div.sbox_sl.cdxShowConv.centralized.sbox_larger.sb_expanded_wrapper > a')",
+          "outerHTML": "<a href=\"/chat?FORM=hpcodx&amp;intent=bing\" class=\"cdxConv_slsboxl\" aria-label=\"Open Copilot\"><div class=\"cdxCopilotIconBg\"><div class=\"cdxCopilotIcon cdxCopilotIconURI\"></div></div></a>",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {
+            "class": "cdxConv_slsboxl",
+            "id": null
+          },
+          "fingerprints": {
+            "attributes": [
+              "href",
+              "aria-label",
+              "data-h"
+            ],
+            "notes": "Round multicolor Copilot button injected to the right of the Bing homepage search box."
+          },
+          "notes": "Eliminates the Copilot launcher so the Bing homepage stays uncluttered."
+        },
+        {
+          "id": "aiwidgets-bing-home-copilot-header-link",
+          "site": "bing.com",
+          "feature": "Bing header Copilot entry point (logo + text)",
+          "url": "https://www.bing.com/",
+          "selector": "#codex > a",
+          "cssPath": "#codex > a.customIcon",
+          "jsPath": "document.querySelector('#codex > a')",
+          "outerHTML": "<a href=\"/chat?FORM=hpcodx&amp;intent=bing\" target=\"_blank\" class=\"customIcon\" rel=\"noopener\"><div class=\"icon\"><img ... class=\"rms_img\"></div><div class=\"text\">Copilot</div></a>",
+          "text": "Copilot",
+          "textContains": "Copilot",
+          "fallbackPatterns": {
+            "id": null,
+            "class": "customIcon"
+          },
+          "fingerprints": {
+            "attributes": [
+              "id",
+              "href",
+              "aria-label"
+            ],
+            "notes": "Top-left masthead pill with Copilot logo + label linking to copilot.microsoft.com."
+          },
+          "notes": "Removes the Copilot shortcut that sits alongside the Bing wordmark in the header."
+        },
+        {
+          "id": "aiwidgets-bing-search-copilot-overview",
+          "site": "bing.com/search",
+          "feature": "Copilot Search generative answer block",
+          "url": "https://www.bing.com/search?q=how+to+change+oil+in+a+car",
+          "selector": "#b_topw",
+          "cssPath": "#b_topw",
+          "jsPath": "document.querySelector('#b_topw')",
+          "outerHTML": "<ol id=\"b_topw\" class=\"b_results_eml\"><li class=\"b_ans\"><div id=\"copans_container\" class=\"copans_container\">...</div></li></ol>",
+          "text": "Copilot Search",
+          "textContains": "Copilot Search",
+          "fallbackPatterns": {
+            "id": "b_topw",
+            "class": "b_results_eml"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-bm",
+              "data-appns"
+            ],
+            "notes": "Includes #copans_container branding, feedback buttons, and carousel results at top of SERP."
+          },
+          "notes": "Blocks the AI-generated Copilot Search panel that replaces organic results on qualifying queries."
+        },
+        {
+          "id": "aiwidgets-bing-search-copilot-top-answer",
+          "site": "bing.com/search",
+          "feature": "Copilot overview inserted as first SERP result",
+          "url": "https://www.bing.com/search?q=how+to+change+oil+in+a+car&FORM=HDRSC1",
+          "selector": "#b_results > li.b_ans.b_top",
+          "cssPath": "#b_results > li.b_ans.b_top",
+          "jsPath": "document.querySelector('#b_results > li.b_ans.b_top')",
+          "outerHTML": "<li class=\"b_ans b_top\"><div class=\"qna_tlgacont gsqnanrt\"><div class=\"qna-mf\"><div class=\"ans-itm-cntr qna-aggr-genItems\"><div id=\"b_genserp_container\" class=\"b_genserp_container\">...</div></div></div></div></li>",
+          "text": "Copilot Search",
+          "textContains": "Copilot Search",
+          "fallbackPatterns": {
+            "class": "b_ans b_top",
+            "id": null
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-bm",
+              "data-fbhlsel",
+              "data-id"
+            ],
+            "notes": "Wraps the Copilot generative answer (#copans_container) when it renders inline as the top result."
+          },
+          "notes": "Ensures the top-of-results Copilot block is suppressed even when served outside #b_topw."
+        },
+        {
+          "id": "aiwidgets-bing-search-copilot-scope-search",
+          "site": "bing.com/search",
+          "feature": "Header pill 'Copilot Search'",
+          "url": "https://www.bing.com/search",
+          "selector": "#b-scopeListItem-copilotsearch > a",
+          "cssPath": "#b-scopeListItem-copilotsearch > a",
+          "jsPath": "document.querySelector('#b-scopeListItem-copilotsearch > a')",
+          "outerHTML": "<a href=\"/copilotsearch?...\" class=\"\"><svg ...></svg>Search</a>",
+          "text": "Search",
+          "textContains": "Search",
+          "fallbackPatterns": {
+            "id": "b-scopeListItem-copilotsearch",
+            "class": null
+          },
+          "fingerprints": {
+            "attributes": [
+              "href",
+              "aria-current",
+              "h"
+            ],
+            "notes": "Scope selector button with Copilot logo labelled 'Search'; opens copilotsearch view."
+          },
+          "notes": "Removes the Copilot Search scope pill from the SERP masthead."
+        },
+        {
+          "id": "aiwidgets-bing-search-copilot-scope-conv",
+          "site": "bing.com/search",
+          "feature": "Header pill 'Copilot'",
+          "url": "https://www.bing.com/search",
+          "selector": "#b-scopeListItem-conv > a",
+          "cssPath": "#b-scopeListItem-conv > a",
+          "jsPath": "document.querySelector('#b-scopeListItem-conv > a')",
+          "outerHTML": "<a href=\"https://www.bing.com/ck/a?...\" target=\"_blank\" class=\"\"><span class=\"scp_conv_mode\"></span>Copilot</a>",
+          "text": "Copilot",
+          "textContains": "Copilot",
+          "fallbackPatterns": {
+            "id": "b-scopeListItem-conv",
+            "class": null
+          },
+          "fingerprints": {
+            "attributes": [
+              "href",
+              "target",
+              "h"
+            ],
+            "notes": "Scope button launching Copilot chat dashboard (aka Bing Chat)."
+          },
+          "notes": "Strips the Copilot chat launcher pill from the SERP header."
+        },
+        {
+          "id": "aiwidgets-bing-search-copilot-bottom-bar",
+          "site": "bing.com/search",
+          "feature": "Sticky follow-up Copilot composer",
+          "url": "https://www.bing.com/search",
+          "selector": "#b_bop_cs_sb_place",
+          "cssPath": "#b_bop_cs_sb_place",
+          "jsPath": "document.querySelector('#b_bop_cs_sb_place')",
+          "outerHTML": "<div id=\"b_bop_cs_sb_place\" class=\"b_bop_cs_sb_l...\"><textarea ... placeholder=\"Ask a follow-up\"></textarea><div class=\"suggestion_container\">...</div></div>",
+          "text": "Ask a follow-up",
+          "textContains": "Ask a follow-up",
+          "fallbackPatterns": {
+            "id": "b_bop_cs_sb_place",
+            "class": "b_bop_cs_sb_l"
+          },
+          "fingerprints": {
+            "attributes": [
+              "class",
+              "id"
+            ],
+            "notes": "Sticky composer with Copilot icon, textarea, send button, and suggestion chips at bottom of SERP."
+          },
+          "notes": "Prevents the persistent Copilot follow-up bar (textarea + suggestions) from sticking to the page."
+        },
+        {
+          "id": "aiwidgets-youtube-video-ask-gemini-button",
+          "site": "youtube.com",
+          "feature": "YouTube Gemini 'Ask' button under video",
+          "url": "https://www.youtube.com/watch?v=jrIzvmEfuFs",
+          "selector": "#flexible-item-buttons > yt-button-view-model",
+          "cssPath": "#flexible-item-buttons yt-button-view-model.ytd-menu-renderer button[aria-label='Ask']",
+          "jsPath": "document.querySelector('#flexible-item-buttons > yt-button-view-model')",
+          "outerHTML": "<yt-button-view-model class=\"ytd-menu-renderer\"><button-view-model class=\"ytSpecButtonViewModelHost style-scope ytd-menu-renderer\"><button class=\"yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-leading yt-spec-button-shape-next--enable-backdrop-filter-experiment\" aria-label=\"Ask\">...</button></button-view-model></yt-button-view-model>",
+          "text": "Ask",
+          "textContains": "Ask",
+          "fallbackPatterns": {
+            "ariaLabel": "Ask",
+            "class": "yt-spec-button-shape-next--tonal"
+          },
+          "fingerprints": {
+            "attributes": [
+              "aria-label",
+              "class"
+            ],
+            "notes": "Gemini 'Ask' button rendered in the flexible-item-buttons area under the YouTube video title, icon + text 'Ask'."
+          },
+          "notes": "Removes the Gemini Ask entry point so the video page stays free of AI chat shortcuts."
+        },
+        {
+          "id": "aiwidgets-youtube-video-ask-panel",
+          "site": "youtube.com",
+          "feature": "YouTube Gemini Ask side panel",
+          "url": "https://www.youtube.com/watch?v=jrIzvmEfuFs",
+          "selector": "#panels > ytd-engagement-panel-section-list-renderer:nth-child(1)",
+          "cssPath": "#panels ytd-engagement-panel-section-list-renderer",
+          "jsPath": "document.querySelector('#panels > ytd-engagement-panel-section-list-renderer:nth-child(1)')",
+          "outerHTML": "<ytd-engagement-panel-section-list-renderer>Ask about this video ... AI can make mistakes, so double-check it.</ytd-engagement-panel-section-list-renderer>",
+          "text": "Ask about this video",
+          "textContains": "AI can make mistakes, so double-check it.",
+          "fallbackPatterns": {
+            "text": "Ask about this video",
+            "disclaimer": "AI can make mistakes"
+          },
+          "fingerprints": {
+            "attributes": [
+              "target-id",
+              "layout",
+              "visibility"
+            ],
+            "notes": "Engagement panel opened on the right when clicking 'Ask', with Gemini prompt suggestions and disclaimer text."
+          },
+          "notes": "Blocks the entire AI discussion side panel on YouTube so only the standard video UI remains."
+        },
+        {
+          "id": "aiwidgets-amazon-product-review-ai-summary",
+          "site": "amazon.com",
+          "feature": "Amazon AI-generated review summary card",
+          "url": "https://www.amazon.com/dp/B0C7X8BSGW?ref_=amzdv_b_ucw_like-newamazondevices_certrefurb_d_pc_clk_B0C7X8BSGW&th=1",
+          "selector": "#reviewsMedley > div > div.a-fixed-left-grid-col.a-col-right > div > div.a-fixed-right-grid-col.cm_cr_grid_center_right.cm_cr_grid_center_right_widget_groups > div:nth-child(1) > div",
+          "cssPath": "#reviewsMedley div.cm_cr_grid_center_right_widget_groups > div:nth-child(1) > div",
+          "jsPath": "document.querySelector('#reviewsMedley > div > div.a-fixed-left-grid-col.a-col-right > div > div.a-fixed-right-grid-col.cm_cr_grid_center_right.cm_cr_grid_center_right_widget_groups > div:nth-child(1) > div')",
+          "outerHTML": "<div class=\"a-row\">Customers say ... Generated from the text of customer reviews</div>",
+          "text": "Customers say",
+          "textContains": "Generated from the text of customer reviews",
+          "fallbackPatterns": {
+            "id": "reviewsMedley",
+            "text": "Generated from the text of customer reviews"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-hook",
+              "class"
+            ],
+            "notes": "AI-generated 'Customers say' synopsis injected above the detailed review list on Amazon product detail pages."
+          },
+          "notes": "Removes the Amazon AI review summary so shoppers only see organic customer feedback."
+        },
+        {
+          "id": "aiwidgets-tripadvisor-hotel-ai-review-summary",
+          "site": "tripadvisor.com",
+          "feature": "Tripadvisor hotel review AI summary module",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g297390-d11966106-Reviews-Jaya_House_River_Park_Hotel-Siem_Reap_Siem_Reap_Province.html",
+          "selector": "#GAI_REVIEWS",
+          "cssPath": "#GAI_REVIEWS",
+          "jsPath": "document.querySelector('#GAI_REVIEWS')",
+          "outerHTML": "<div id=\"GAI_REVIEWS\">Reviews summary ... Powered by AI ...</div>",
+          "text": "Reviews summary",
+          "textContains": "This summary was created by AI, based on recent reviews.",
+          "fallbackPatterns": {
+            "id": "GAI_REVIEWS",
+            "text": "Powered by AI"
+          },
+          "fingerprints": {
+            "attributes": [
+              "id",
+              "data-widget-type"
+            ],
+            "notes": "Dedicated 'Powered by AI' review synopsis block injected near the top of Tripadvisor hotel listings."
+          },
+          "notes": "Hides Tripadvisor's AI-written hotel review summaries so travelers read the actual traveler reviews instead."
+        },
+        {
+          "id": "aiwidgets-booking-smart-filters-widget",
+          "site": "booking.com",
+          "feature": "Booking.com Smart filters AI request box",
+          "url": "https://www.booking.com/searchresults.fr.html?label=gen173nr-10CAEoggI46AdIM1gEaJgCiAEBmAEzuAEHyAEM2AED6AEB-AEBiAIBqAIBuAKJ14zJBsACAdICJDQ4YjdkYWM4LTIyY2YtNGIwOS1hMjkxLWI4MGI3YzNlZDM3YdgCAeACAQ&aid=304142&highlighted_hotels=1915263&city=20079110",
+          "selector": "#bodyconstraint-inner > div > div > div.f75d3e1279 > div.c39d0c9226 > div.b7b2eb6274 > div.b7ef425131.e9f1adff2b.c03fb03748.a81cb9db2d > div.c3bdfd4ac2.a0ab5da06c",
+          "cssPath": "div[data-testid='filters-search-widget']",
+          "jsPath": "document.querySelector('#bodyconstraint-inner > div > div > div.f75d3e1279 > div.c39d0c9226 > div.b7b2eb6274 > div.b7ef425131.e9f1adff2b.c03fb03748.a81cb9db2d > div.c3bdfd4ac2.a0ab5da06c')",
+          "outerHTML": "<div data-testid=\"filters-search-widget\" class=\"c3bdfd4ac2 a0ab5da06c\">...<div class=\"b08850ce41\">Smart filters</div>...<textarea placeholder=\"Example: I want a place with great reviews and free cancellation\"></textarea>...<button>Find properties</button>...</div>",
+          "text": "Smart filters",
+          "textContains": "What are you looking for?",
+          "fallbackPatterns": {
+            "dataTestId": "filters-search-widget",
+            "text": "Smart filters"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-testid",
+              "placeholder",
+              "name"
+            ],
+            "notes": "Widget contains textarea with placeholder 'Example: I want a place...' and submit button 'Find properties'."
+          },
+          "notes": "Removes Booking.com's AI Smart filters box so listings stay filterable only via explicit criteria."
+        },
+        {
+          "id": "aiwidgets-google-gemini-launcher",
+          "site": "google.com",
+          "feature": "Google header Gemini launcher button",
+          "url": "https://www.google.com/",
+          "selector": "#gb > div.gb_Kd.gb_Nd.gb_Zd > div.gb_Sd.gb_1d.gb_Le.gb_Ve.gb_1e > div.gb_v.gb_re.bGJ > div:nth-child(4) > div",
+          "cssPath": "#gb div.gb_v.gb_re.bGJ div:nth-child(4) div.r4vW1e",
+          "jsPath": "document.querySelector('#gb > div.gb_Kd.gb_Nd.gb_Zd > div.gb_Sd.gb_1d.gb_Le.gb_Ve.gb_1e > div.gb_v.gb_re.bGJ > div:nth-child(4) > div')",
+          "outerHTML": "<div class=\"r4vW1e e5IPTd\" data-rp-placement-id=\"gemkick-pep-icon-callout-id\"><button class=\"VYBDae-JX-I\" aria-label=\"Try Gemini\">...</button></div>",
+          "text": "Try Gemini",
+          "textContains": "Try Gemini",
+          "fallbackPatterns": {
+            "dataAttribute": "data-rp-placement-id=gemkick-pep-icon-callout-id",
+            "ariaLabel": "Try Gemini"
+          },
+          "fingerprints": {
+            "attributes": [
+              "data-rp-placement-id",
+              "aria-label",
+              "jscontroller"
+            ],
+            "notes": "Same Gemini launcher icon referenced globally; duplicated here so EN locale picks it up if global load fails."
+          },
+          "notes": "Ensures the Gemini quick-launch button is hidden on en-US Google surfaces."
+        },
+        {
+          "id": "aiwidgets-reddit-search-ask-button",
+          "site": "reddit.com",
+          "feature": "Reddit Search AI 'Ask' button",
+          "url": "https://www.reddit.com/search/?q=how+to+change+car+oil",
+          "selector": "#search-input > div > faceplate-tracker > a",
+          "cssPath": "#search-input faceplate-tracker > a.button",
+          "jsPath": "document.querySelector(\"body > shreddit-app > reddit-header-large > reddit-header-action-items > header > nav > div.h-\\\\[40px\\\\].flex-1.py-xs.flex.justify-stretch > div > div > search-dynamic-id-cache-controller > reddit-search-large\").shadowRoot.querySelector('#search-input > div > faceplate-tracker > a')",
+          "outerHTML": "<a class=\"button button-plain\" href=\"/answers/...\" aria-label=\"Ask\"><span class=\"flex items-center gap-xs\"><svg class=\"text-secondary\" ...></svg><span>Ask</span></span></a>",
+          "text": "Ask",
+          "textContains": "Ask",
+          "fallbackPatterns": {
+            "class": "button-plain",
+            "text": "Ask"
+          },
+          "fingerprints": {
+            "attributes": [
+              "href",
+              "aria-label",
+              "data-testid"
+            ],
+            "notes": "Appears inside the search box chrome as a pill linking to /answers; includes orange icon and 'Ask' copy."
+          },
+          "notes": "Removes the AI 'Ask' shortcut that pushes Reddit searchers toward the Answers experience."
+        },
+        {
+          "id": "aiwidgets-facebook-sidebar-meta-ai",
+          "site": "facebook.com",
+          "feature": "Facebook left-rail Meta AI entry",
+          "url": "https://www.facebook.com/",
+          "selector": "#mount_0_0_LQ > div > div:nth-child(1) > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div.x78zum5.xdt5ytf.x1t2pt76.x1n2onr6.x1ja2u2z.x10cihs4 > div.x9f619.x1ja2u2z.x78zum5.x2lah0s.x1n2onr6.xl56j7k.x1qjc9v5.xozqiw3.x1q0g3np.x1t2pt76.x17upfok > div > div.x9f619.x1ja2u2z.xnp8db0.x112wk31.xnjgh8c.xxc7z9f.x1t2pt76.x1u2d2a2.x6ikm8r.x10wlt62.x1xzczws.x7wzq59.xxzkxad.x9e5oc1 > div > div > div.x78zum5.xdt5ytf.x1iyjqo2.x1n2onr6 > div > div > div.x1iyjqo2 > div > ul > li:nth-child(2) > div > div > div > a",
+          "cssPath": "ul > li:nth-child(2) a[href^='https://www.meta.ai']",
+          "jsPath": "document.querySelector(\"#mount_0_0_LQ > div > div:nth-child(1) > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div.x78zum5.xdt5ytf.x1t2pt76.x1n2onr6.x1ja2u2z.x10cihs4 > div.x9f619.x1ja2u2z.x78zum5.x2lah0s.x1n2onr6.xl56j7k.x1qjc9v5.xozqiw3.x1q0g3np.x1t2pt76.x17upfok > div > div.x9f619.x1ja2u2z.xnp8db0.x112wk31.xnjgh8c.xxc7z9f.x1t2pt76.x1u2d2a2.x6ikm8r.x10wlt62.x1xzczws.x7wzq59.xxzkxad.x9e5oc1 > div > div > div.x78zum5.xdt5ytf.x1iyjqo2.x1n2onr6 > div > div > div.x1iyjqo2 > div > ul > li:nth-child(2) > div > div > div > a\")",
+          "outerHTML": "<a class=\"x1i10hfl ...\" href=\"https://www.meta.ai/?utm_source=facebook_bookmarks\" target=\"_blank\"><div class=\"...\"><img src=\"https://static.xx.fbcdn.net/.../G6uPup76BXD.png\"><div><span>Meta AI</span></div></div></a>",
+          "text": "Meta AI",
+          "textContains": "Meta AI",
+          "fallbackPatterns": {
+            "href": "https://www.meta.ai/",
+            "text": "Meta AI"
+          },
+          "fingerprints": {
+            "attributes": [
+              "href",
+              "rel",
+              "target"
+            ],
+            "notes": "Bookmark tile in the Facebook left navigation linking to Meta AI with distinctive robot avatar."
+          },
+          "notes": "Strips the Meta AI bookmark from the sidebar so only user-selected shortcuts remain."
+        },
+        {
+          "id": "bouton \"AI Mode\" qui mène à une discussion avec google Gemini",
+          "site": "google.com",
+          "feature": "ai mode discussion avec Gemini",
+          "url": "https://google.com/search",
+          "selector": "#_KJ0labDWMvOHptQP0LLrmQU_33 > div.HTOhZ > div > div > div.beZ0tf.O1uzAe > div:nth-child(1) > div > div > a",
+          "cssPath": "#_KJ0labDWMvOHptQP0LLrmQU_33 > div.HTOhZ > div > div > div.beZ0tf.O1uzAe > div:nth-child(1) > div > div > a",
+          "jsPath": "document.querySelector(\"#_KJ0labDWMvOHptQP0LLrmQU_33 > div.HTOhZ > div > div > div.beZ0tf.O1uzAe > div:nth-child(1) > div > div > a\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "ai mode discussion avec Gemini"
+        },
+        {
+          "id": "Copilot search overview.",
+          "site": "bing.com/search",
+          "feature": "s'affiche lorsque bing.com estime que la recherche mérite une réponse générée par l'a.",
+          "url": "https://www.bing.com/search?q=how+to+change+oil+in+a+car&qs=FT&pq=how+to+change+oil+&sc=12-18&cvid=31E018F27BB5437893EB8538122DB116&FORM=QBLH&sp=1&ghc=1&lq=0",
+          "selector": "#b_topw > li:nth-child(1)",
+          "cssPath": "#b_topw > li:nth-child(1)",
+          "jsPath": "document.querySelector(\"#b_topw > li:nth-child(1)\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "s'affiche lorsque bing.com estime que la recherche mérite une réponse générée par l'a."
+        },
+        {
+          "id": "aiwidgets-bing-search-copilot-bottom-bar",
+          "site": "bing.com/search",
+          "feature": "invitation à demander à l'IA en bas de page de recherche lorsque l'on défile.",
+          "url": "https://la même qu'au début",
+          "selector": "#b_bop_cs_sb_place > div > div > div.composer_wrapper",
+          "cssPath": "#b_bop_cs_sb_place > div > div > div.composer_wrapper",
+          "jsPath": "document.querySelector(\"#b_bop_cs_sb_place > div > div > div.composer_wrapper\")",
+          "outerHTML": "<div class=\"composer_wrapper\"><div class=\"composer_l_icon\"><div class=\"b_copilot_icon\"></div></div><div class=\"composer_inner_wrapper\"><div class=\"composer_l\" role=\"search\"><textarea class=\"b_copilot_composer\" id=\"b_copilot_composer_2\" rows=\"1\" maxlength=\"1000\" placeholder=\"Demander un suivi \" enterkeyhint=\"search\" role=\"textbox\"></textarea></div><div class=\"composer_r\"><button class=\"b_copilot_send hidden\" type=\"submit\" aria-label=\"Envoyer\"><div class=\"b_copilot_send_icon\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2.20938 8.73272C1.92369 9.03264 1.93523 9.50738 2.23516 9.79306C2.53509 10.0787 3.00982 10.0672 3.29551 9.76728L9.25 3.516V18.25C9.25 18.6642 9.58579 19 10 19C10.4142 19 10.75 18.6642 10.75 18.25V3.51565L16.7048 9.76728C16.9905 10.0672 17.4652 10.0787 17.7652 9.79306C18.0651 9.50738 18.0766 9.03264 17.791 8.73272L10.7243 1.31379C10.5632 1.14474 10.3578 1.04477 10.1443 1.01386C10.0976 1.00477 10.0494 1 10 1C9.9503 1 9.90174 1.00483 9.85474 1.01406C9.64168 1.04518 9.43677 1.14509 9.27608 1.31379L2.20938 8.73272Z\"></path></svg></div></button></div></div></div>",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "invitation à demander à l'IA en bas de page de recherche lorsque l'on défile."
+        },
+        {
+          "id": "microsoft-ai-enrichment-3",
+          "site": "unknown",
+          "feature": "suggestion de question similaire cliquable à poser à l'IA copilot.",
+          "url": "https://unknown",
+          "selector": "#b_bop_cs_sb_place > div > div > div.suggestion_container",
+          "cssPath": "#b_bop_cs_sb_place > div > div > div.suggestion_container",
+          "jsPath": "document.querySelector(\"#b_bop_cs_sb_place > div > div > div.suggestion_container\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "suggestion de question similaire cliquable à poser à l'IA copilot."
+        }
+      ]
+    },
+    {
+      "locale": "FR",
+      "title": "===== FR / FRANÇAIS =====",
+      "entries": []
+    },
+    {
+      "locale": "DE",
+      "title": "===== DE / DEUTSCH =====",
+      "entries": []
+    },
+    {
+      "locale": "ES",
+      "title": "===== ES / ESPAÑOL =====",
+      "entries": []
+    },
+    {
+      "locale": "IT",
+      "title": "===== IT / ITALIANO =====",
+      "entries": []
+    },
+    {
+      "locale": "PT",
+      "title": "===== PT / PORTUGUÊS =====",
+      "entries": []
+    },
+    {
+      "locale": "NL",
+      "title": "===== NL / NEDERLANDS =====",
+      "entries": []
+    },
+    {
+      "locale": "PL",
+      "title": "===== PL / POLSKI =====",
+      "entries": []
+    },
+    {
+      "locale": "JA",
+      "title": "===== JA / 日本語 =====",
+      "entries": []
+    },
+    {
+      "locale": "KO",
+      "title": "===== KO / 한국어 =====",
+      "entries": []
+    },
+    {
+      "locale": "ZH",
+      "title": "===== ZH / 中文 =====",
+      "entries": []
+    }
+  ],
+  "cookies": [
+    {
+      "locale": "GLOBAL",
+      "title": "===== GLOBAL / ALL LANGUAGES =====",
+      "entries": []
+    },
+    {
+      "locale": "EN",
+      "title": "===== EN / ENGLISH =====",
+      "entries": []
+    },
+    {
+      "locale": "FR",
+      "title": "===== FR / FRANÇAIS =====",
+      "entries": []
+    },
+    {
+      "locale": "DE",
+      "title": "===== DE / DEUTSCH =====",
+      "entries": []
+    },
+    {
+      "locale": "ES",
+      "title": "===== ES / ESPAÑOL =====",
+      "entries": []
+    },
+    {
+      "locale": "IT",
+      "title": "===== IT / ITALIANO =====",
+      "entries": []
+    },
+    {
+      "locale": "PT",
+      "title": "===== PT / PORTUGUÊS =====",
+      "entries": []
+    },
+    {
+      "locale": "NL",
+      "title": "===== NL / NEDERLANDS =====",
+      "entries": []
+    },
+    {
+      "locale": "PL",
+      "title": "===== PL / POLSKI =====",
+      "entries": []
+    },
+    {
+      "locale": "JA",
+      "title": "===== JA / 日本語 =====",
+      "entries": []
+    },
+    {
+      "locale": "KO",
+      "title": "===== KO / 한국어 =====",
+      "entries": []
+    },
+    {
+      "locale": "ZH",
+      "title": "===== ZH / 中文 =====",
+      "entries": []
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "comment": "Preserve-list: DOM elements that BlockHub must never hide or mutate. This acts as a safelist to protect search boxes, navigation, or productivity UI.",
+  "version": "1.0",
+  "lastUpdated": "2025-11-25T00:00:00Z",
+  "locales": [
+    "GLOBAL",
+    "EN",
+    "FR",
+    "DE",
+    "ES",
+    "IT",
+    "PT",
+    "NL",
+    "PL",
+    "JA",
+    "KO",
+    "ZH"
+  ],
+  "entries": [
+    {
+      "locale": "GLOBAL",
+      "title": "===== GLOBAL / ALL LANGUAGES =====",
+      "elements": []
+    },
+    {
+      "locale": "EN",
+      "title": "===== EN / ENGLISH =====",
+      "elements": [
+        {
+          "id": "youtube-preserve-enrichment-1",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#container",
+          "cssPath": "#container",
+          "jsPath": "document.querySelector(\"#container\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        },
+        {
+          "id": "youtube-preserve-enrichment-2",
+          "site": "unknown",
+          "feature": "Element to block",
+          "url": "https://unknown",
+          "selector": "#masthead",
+          "cssPath": "#masthead",
+          "jsPath": "document.querySelector(\"#masthead\")",
+          "text": null,
+          "textContains": null,
+          "fallbackPatterns": {},
+          "fingerprints": {
+            "attributes": [],
+            "notes": ""
+          },
+          "notes": "Enrichment entry"
+        }
+      ]
+    },
+    {
+      "locale": "FR",
+      "title": "===== FR / FRANÇAIS =====",
+      "elements": [
+        {
+          "id": "yt-masthead-center",
+          "site": "youtube.com",
+          "feature": "Masthead center wrapper",
+          "url": "https://www.youtube.com/",
+          "selector": "#center",
+          "cssPath": "ytd-masthead #center",
+          "jsPath": "document.querySelector('#center')",
+          "outerHTML": null,
+          "text": null,
+          "notes": "Container for the entire YouTube search bar section. Removing it collapses the top navigation."
+        },
+        {
+          "id": "yt-masthead-searchbox",
+          "site": "youtube.com",
+          "feature": "Search box host",
+          "url": "https://www.youtube.com/",
+          "selector": "#center > yt-searchbox",
+          "cssPath": "ytd-masthead yt-searchbox",
+          "jsPath": "document.querySelector('#center > yt-searchbox')",
+          "outerHTML": null,
+          "text": null,
+          "notes": "Actual search box component."
+        },
+        {
+          "id": "yt-masthead-voice-button",
+          "site": "youtube.com",
+          "feature": "Voice search button",
+          "url": "https://www.youtube.com/",
+          "selector": "#voice-search-button > ytd-button-renderer > yt-button-shape",
+          "cssPath": "#voice-search-button ytd-button-renderer yt-button-shape",
+          "jsPath": "document.querySelector('#voice-search-button > ytd-button-renderer > yt-button-shape')",
+          "outerHTML": null,
+          "text": null,
+          "notes": "Microphone button next to the search input."
+        },
+        {
+          "id": "yt-masthead-container",
+          "site": "youtube.com",
+          "feature": "Masthead container",
+          "url": "https://www.youtube.com/",
+          "selector": "#container",
+          "cssPath": "ytd-masthead #container",
+          "jsPath": "document.querySelector('#container')",
+          "outerHTML": null,
+          "text": null,
+          "notes": "High-level masthead wrapper that should never be removed."
+        },
+        {
+          "id": "yt-masthead-buttons",
+          "site": "youtube.com",
+          "feature": "Action buttons cluster",
+          "url": "https://www.youtube.com/",
+          "selector": "#buttons",
+          "cssPath": "ytd-masthead #buttons",
+          "jsPath": "document.querySelector('#buttons')",
+          "outerHTML": null,
+          "text": null,
+          "notes": "Cluster that contains upload, notifications, profile, etc."
+        },
+        {
+          "id": "yt-logo-icon",
+          "site": "youtube.com",
+          "feature": "YouTube logo icon",
+          "url": "https://www.youtube.com/",
+          "selector": "#logo-icon",
+          "cssPath": "ytd-top-logo-renderer #logo-icon",
+          "jsPath": "document.querySelector('#logo-icon')",
+          "outerHTML": null,
+          "text": null,
+          "notes": "Brand logo anchor. Improves trust and prevents header collapse."
+        }
+      ]
+    },
+    {
+      "locale": "DE",
+      "title": "===== DE / DEUTSCH =====",
+      "elements": []
+    },
+    {
+      "locale": "ES",
+      "title": "===== ES / ESPAÑOL =====",
+      "elements": []
+    },
+    {
+      "locale": "IT",
+      "title": "===== IT / ITALIANO =====",
+      "elements": []
+    },
+    {
+      "locale": "PT",
+      "title": "===== PT / PORTUGUÊS =====",
+      "elements": []
+    },
+    {
+      "locale": "NL",
+      "title": "===== NL / NEDERLANDS =====",
+      "elements": []
+    },
+    {
+      "locale": "PL",
+      "title": "===== PL / POLSKI =====",
+      "elements": []
+    },
+    {
+      "locale": "JA",
+      "title": "===== JA / 日本語 =====",
+      "elements": []
+    },
+    {
+      "locale": "KO",
+      "title": "===== KO / 한국어 =====",
+      "elements": []
+    },
+    {
+      "locale": "ZH",
+      "title": "===== ZH / 中文 =====",
+      "elements": []
+    }
+  ]
+}
