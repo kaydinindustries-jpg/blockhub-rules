@@ -20,11 +20,11 @@ const BRANCH = 'main';
 
 // Rule files to include in the index
 const FILES = {
-  aiTerms: 'cdn/v1/ai_terms.json',
-  aiWidgetSelectors: 'cdn/v1/ai_widget_selectors.json',
-  cookiePatterns: 'cdn/v1/cookie_patterns.json',
-  killList: 'cdn/v1/kill_list.json',
-  preserveList: 'cdn/v1/preserve_list.json'
+  aiTerms: 'rules/cdn/v1/ai_terms.json',
+  aiWidgetSelectors: 'rules/cdn/v1/ai_widget_selectors.json',
+  cookiePatterns: 'rules/cdn/v1/cookie_patterns.json',
+  killList: 'rules/cdn/v1/kill_list.json',
+  preserveList: 'rules/cdn/v1/preserve_list.json'
 };
 
 /**
@@ -56,7 +56,7 @@ function generateIndex() {
   };
 
   for (const [key, relativePath] of Object.entries(FILES)) {
-    const fullPath = path.join(__dirname, '..', 'rules', relativePath);
+    const fullPath = path.join(__dirname, '..', relativePath);
     
     if (!fs.existsSync(fullPath)) {
       console.error(`❌ File not found: ${fullPath}`);

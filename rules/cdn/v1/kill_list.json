@@ -28,9 +28,9 @@
       "entries": [
         {
           "id": "youtube-ads-enrichment-1",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#rendering-content > square-image-layout-view-model",
           "cssPath": "#rendering-content > square-image-layout-view-model",
           "jsPath": "document.querySelector(\"#rendering-content > square-image-layout-view-model\")",
@@ -46,9 +46,9 @@
         },
         {
           "id": "youtube-ads-enrichment-2",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#rendering-content",
           "cssPath": "#rendering-content",
           "jsPath": "document.querySelector(\"#rendering-content\")",
@@ -64,13 +64,13 @@
         },
         {
           "id": "youtube-ads-enrichment-3",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#fulfilled-layout > ytd-in-feed-ad-layout-renderer",
           "cssPath": "#fulfilled-layout > ytd-in-feed-ad-layout-renderer",
           "jsPath": "document.querySelector(\"#fulfilled-layout > ytd-in-feed-ad-layout-renderer\")",
-          "outerHTML": "</ytd-in-feed-ad-layout-renderer>",
+          "outerHTML": null,
           "text": null,
           "textContains": null,
           "fallbackPatterns": {},
@@ -82,13 +82,13 @@
         },
         {
           "id": "youtube-ads-enrichment-4",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#fulfilled-layout",
           "cssPath": "#fulfilled-layout",
           "jsPath": "document.querySelector(\"#fulfilled-layout\")",
-          "outerHTML": "</ytd-in-feed-ad-layout-renderer></div>",
+          "outerHTML": null,
           "text": null,
           "textContains": null,
           "fallbackPatterns": {},
@@ -100,9 +100,9 @@
         },
         {
           "id": "youtube-ads-enrichment-5",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#header",
           "cssPath": "#header",
           "jsPath": "document.querySelector(\"#header\")",
@@ -113,13 +113,14 @@
             "attributes": [],
             "notes": ""
           },
-          "notes": "Enrichment entry"
+          "notes": "Enrichment entry",
+          "outerHTML": null
         },
         {
           "id": "youtube-ads-enrichment-6",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#header > panel-ad-header-image-lockup-view-model",
           "cssPath": "#header > panel-ad-header-image-lockup-view-model",
           "jsPath": "document.querySelector(\"#header > panel-ad-header-image-lockup-view-model\")",
@@ -130,13 +131,14 @@
             "attributes": [],
             "notes": ""
           },
-          "notes": "Enrichment entry"
+          "notes": "Enrichment entry",
+          "outerHTML": null
         },
         {
           "id": "youtube-ads-enrichment-7",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#panels > ytd-engagement-panel-section-list-renderer:nth-child(3)",
           "cssPath": "#panels > ytd-engagement-panel-section-list-renderer:nth-child(3)",
           "jsPath": "document.querySelector(\"#panels > ytd-engagement-panel-section-list-renderer:nth-child(3)\")",
@@ -147,17 +149,18 @@
             "attributes": [],
             "notes": ""
           },
-          "notes": "Enrichment entry"
+          "notes": "Enrichment entry",
+          "outerHTML": null
         },
         {
           "id": "youtube-ads-enrichment-8",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#contents > ytd-rich-item-renderer:nth-child(6)",
           "cssPath": "#contents > ytd-rich-item-renderer:nth-child(6)",
           "jsPath": "document.querySelector(\"#contents > ytd-rich-item-renderer:nth-child(6)\")",
-          "outerHTML": "</ytd-in-feed-ad-layout-renderer></div>\n</ytd-ad-slot-renderer></div>\n<yt-interaction id=\"interaction\" class=\"extended rounded-large style-scope ytd-rich-item-renderer\"><!--css-build:shady--><!--css_build_scope:yt-interaction--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.ui.yt_interaction.yt.interaction.css.js--><div class=\"stroke style-scope yt-interaction\"></div><div class=\"fill style-scope yt-interaction\"></div></yt-interaction>\n</ytd-rich-item-renderer>",
+          "outerHTML": null,
           "text": null,
           "textContains": null,
           "fallbackPatterns": {},
@@ -169,13 +172,13 @@
         },
         {
           "id": "youtube-ads-enrichment-9",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div > yt-touch-feedback-shape",
           "cssPath": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div > yt-touch-feedback-shape",
           "jsPath": "document.querySelector(\"#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div > yt-touch-feedback-shape\")",
-          "outerHTML": "<yt-touch-feedback-shape aria-hidden=\"true\" class=\"yt-spec-touch-feedback-shape yt-spec-touch-feedback-shape--touch-response yt-spec-touch-feedback-shape--thumbnail-size-large yt-spec-touch-feedback-shape--trigger-events\"><div class=\"yt-spec-touch-feedback-shape__stroke\"></div><div class=\"yt-spec-touch-feedback-shape__fill\"></div></yt-touch-feedback-shape>",
+          "outerHTML": null,
           "text": null,
           "textContains": null,
           "fallbackPatterns": {},
@@ -187,9 +190,9 @@
         },
         {
           "id": "youtube-ads-enrichment-10",
-          "site": "unknown",
-          "feature": "Element to block",
-          "url": "https://unknown",
+          "site": "youtube.com",
+          "feature": "YouTube Ad Display",
+          "url": "https://youtube.com",
           "selector": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div",
           "cssPath": "#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div",
           "jsPath": "document.querySelector(\"#rendering-content > video-display-button-group-layout-view-model > div > yt-lockup-view-model > div\")",
@@ -200,7 +203,8 @@
             "attributes": [],
             "notes": ""
           },
-          "notes": "Enrichment entry"
+          "notes": "Enrichment entry",
+          "outerHTML": null
         }
       ]
     },
@@ -926,9 +930,9 @@
         },
         {
           "id": "microsoft-ai-enrichment-3",
-          "site": "unknown",
-          "feature": "suggestion de question similaire cliquable à poser à l'IA copilot.",
-          "url": "https://unknown",
+          "site": "bing.com",
+          "feature": "Bing Copilot Widget",
+          "url": "https://bing.com",
           "selector": "#b_bop_cs_sb_place > div > div > div.suggestion_container",
           "cssPath": "#b_bop_cs_sb_place > div > div > div.suggestion_container",
           "jsPath": "document.querySelector(\"#b_bop_cs_sb_place > div > div > div.suggestion_container\")",
@@ -939,7 +943,8 @@
             "attributes": [],
             "notes": ""
           },
-          "notes": "suggestion de question similaire cliquable à poser à l'IA copilot."
+          "notes": "suggestion de question similaire cliquable à poser à l'IA copilot.",
+          "outerHTML": null
         }
       ]
     },
