@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-11-27T12:05:55.515Z",
+  "lastUpdated": "2025-11-27T16:45:04.315Z",
   "files": {
     "aiTerms": {
       "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/rules/cdn/v1/ai_terms.json",
@@ -24,8 +24,8 @@
     },
     "preserveList": {
       "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/rules/cdn/v1/preserve_list.json",
-      "sha256": "f7b9289c3119d81b86dc77bfa2da8c5c7d553acd361cdfba72c04b18fae12652",
-      "size": 7765
+      "sha256": "f57269da5510450de88e8c1197affa65ab57273a47044a64e20002c364b503e8",
+      "size": 8637
     }
   }
 }

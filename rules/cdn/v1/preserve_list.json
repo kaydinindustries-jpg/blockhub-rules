@@ -70,6 +70,26 @@
           "cssPath": "ytd-guide-renderer",
           "jsPath": "document.querySelector('ytd-guide-renderer')",
           "notes": "YouTube left sidebar. Must NEVER be hidden."
+        },
+        {
+          "id": "yt-frosted-glass-global",
+          "site": "youtube.com",
+          "feature": "YouTube frosted glass background",
+          "url": "https://www.youtube.com/",
+          "selector": "#frosted-glass",
+          "cssPath": "#frosted-glass",
+          "jsPath": "document.querySelector('#frosted-glass')",
+          "notes": "Background element for YouTube masthead. Must NEVER be hidden."
+        },
+        {
+          "id": "yt-masthead-container-element",
+          "site": "youtube.com",
+          "feature": "YouTube masthead container element",
+          "url": "https://www.youtube.com/",
+          "selector": "#masthead-container",
+          "cssPath": "#masthead-container",
+          "jsPath": "document.querySelector('#masthead-container')",
+          "notes": "Container element for YouTube header. Must NEVER be hidden."
         }
       ]
     },
