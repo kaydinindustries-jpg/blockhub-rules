@@ -1,0 +1,31 @@
+{
+  "name": "blockhub",
+  "version": "0.2.0",
+  "description": "BlockHub detoxes the web by blocking ads, cookie banners, AI widgets, and AI terminology",
+  "private": true,
+  "scripts": {
+    "test": "node tests/integration.test.js",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,json,css,html}\"",
+    "build": "echo 'No build step required - extension is ready to load'",
+    "icons": "node utils/create_placeholder_icons.js"
+  },
+  "keywords": [
+    "chrome-extension",
+    "ad-blocker",
+    "privacy",
+    "cookie-consent",
+    "ai-blocker"
+  ],
+  "author": "Kaydin Industries",
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer": "^21.0.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+

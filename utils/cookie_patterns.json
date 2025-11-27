@@ -1,0 +1,280 @@
+{
+  "version": "1.0.0",
+  "description": "Multilingual cookie consent rejection patterns for BlockHub.",
+  "reject_phrases": [
+    "reject all",
+    "reject",
+    "decline all",
+    "decline",
+    "refuse all",
+    "refuse",
+    "opt out",
+    "deny all",
+    "deny",
+    "continue without accepting",
+    "no thanks",
+    "i decline",
+    "do not accept",
+    "necessary only",
+    "essential only",
+    "tout refuser",
+    "refuser tout",
+    "refuser",
+    "tout rejeter",
+    "rejeter",
+    "continuer sans accepter",
+    "non merci",
+    "je refuse",
+    "cookies essentiels",
+    "alle ablehnen",
+    "ablehnen",
+    "zurückweisen",
+    "nein danke",
+    "nur notwendige",
+    "nur erforderliche",
+    "rechazar todo",
+    "rechazar",
+    "denegar todo",
+    "denegar",
+    "no aceptar",
+    "solo necesarias",
+    "solo esenciales",
+    "rifiuta tutto",
+    "rifiuta",
+    "rifiutare",
+    "nega",
+    "non accettare",
+    "solo necessari",
+    "solo essenziali",
+    "rejeitar tudo",
+    "rejeitar",
+    "recusar tudo",
+    "recusar",
+    "não aceitar",
+    "apenas necessários",
+    "apenas essenciais",
+    "alles weigeren",
+    "weigeren",
+    "afwijzen",
+    "nee bedankt",
+    "alleen noodzakelijke",
+    "alleen essentiële",
+    "odrzuć wszystko",
+    "odrzuć",
+    "odmów",
+    "nie akceptuję",
+    "tylko niezbędne",
+    "tylko konieczne",
+    "отклонить все",
+    "отклонить",
+    "отказаться",
+    "нет спасибо",
+    "только необходимые",
+    "только обязательные",
+    "拒绝全部",
+    "拒绝",
+    "全部拒绝",
+    "不接受",
+    "仅必要",
+    "すべて拒否",
+    "拒否",
+    "拒否する",
+    "必要なもののみ",
+    "모두 거부",
+    "거부",
+    "거절",
+    "필수 항목만",
+    "رفض الكل",
+    "رفض",
+    "رفض الجميع",
+    "الضرورية فقط"
+  ],
+  "excluded_domains": [
+    "cnn.com",
+    "bbc.com",
+    "theguardian.com",
+    "nytimes.com",
+    "washingtonpost.com",
+    "reuters.com",
+    "bloomberg.com",
+    "netflix.com",
+    "spotify.com",
+    "amazon.com",
+    "ebay.com",
+    "paypal.com",
+    "stripe.com",
+    "square.com"
+  ],
+  "cmps": [
+    {
+      "name": "OneTrust",
+      "detect_selectors": [
+        "#onetrust-banner-sdk",
+        ".onetrust-pc-dark-filter"
+      ],
+      "reject_selectors": [
+        "#onetrust-reject-all-handler",
+        "[id*='onetrust'][id*='reject']",
+        "#onetrust-pc-btn-handler",
+        ".save-preference-btn-handler"
+      ]
+    },
+    {
+      "name": "Quantcast",
+      "detect_selectors": [
+        "#qc-cmp2-ui",
+        ".qc-cmp2-container",
+        "[class*='qc-cmp']"
+      ],
+      "reject_selectors": [
+        "[mode='reject']",
+        "button[aria-label*='Reject' i]",
+        ".qc-cmp2-summary-buttons button:last-child"
+      ]
+    },
+    {
+      "name": "Usercentrics",
+      "detect_selectors": [
+        "#usercentrics-root",
+        "[data-testid*='uc-']",
+        ".usercentrics-root"
+      ],
+      "reject_selectors": [
+        "[data-testid='uc-deny-all-button']",
+        "button[aria-label*='Deny' i]"
+      ],
+      "reject_text_patterns": [
+        "deny",
+        "reject",
+        "refuse"
+      ]
+    },
+    {
+      "name": "Cookiebot",
+      "detect_selectors": [
+        "#CybotCookiebotDialog",
+        "[id*='Cookiebot']"
+      ],
+      "reject_selectors": [
+        "#CybotCookiebotDialogBodyButtonDecline",
+        "[id*='Cookiebot'][id*='Decline']"
+      ]
+    },
+    {
+      "name": "Didomi",
+      "detect_selectors": [
+        ".didomi-popup",
+        ".didomi-consent-popup",
+        "#didomi-host",
+        "[class*='didomi']"
+      ],
+      "reject_selectors": [
+        "[id^='didomi-notice-disagree-button']",
+        ".didomi-continue-without-agreeing",
+        ".didomi-button-disagree"
+      ],
+      "reject_text_patterns": [
+        "disagree",
+        "refuse",
+        "reject"
+      ]
+    },
+    {
+      "name": "TrustArc",
+      "detect_selectors": [
+        "#truste-consent-track",
+        "[id*='truste']",
+        ".truste_box_overlay"
+      ],
+      "reject_selectors": [
+        ".truste-button2",
+        ".pdynamicbutton",
+        ".required-consent-btn"
+      ],
+      "reject_text_patterns": [
+        "reject",
+        "refuse",
+        "required only"
+      ]
+    },
+    {
+      "name": "Osano",
+      "detect_selectors": [
+        ".osano-cm-dialog",
+        "[class*='osano']"
+      ],
+      "reject_selectors": [
+        ".osano-cm-deny",
+        ".osano-cm-denyAll"
+      ]
+    },
+    {
+      "name": "CookieFirst",
+      "detect_selectors": [
+        "[id*='cookiefirst']",
+        ".cookiefirst-root"
+      ],
+      "reject_selectors": [
+        "button[data-cookiefirst-action='reject']"
+      ]
+    },
+    {
+      "name": "Termly",
+      "detect_selectors": [
+        "#termly-code-snippet-support",
+        "[id*='termly']"
+      ],
+      "reject_selectors": [
+        "button[data-tid='banner-decline']"
+      ]
+    },
+    {
+      "name": "IAB TCF v2",
+      "detect_selectors": [
+        "__tcfapi"
+      ],
+      "reject_text_patterns": [
+        "reject",
+        "refuse",
+        "decline"
+      ]
+    },
+    {
+      "name": "CookieYes",
+      "detect_selectors": [
+        "[class*='cky-consent' i]",
+        ".cky-consent-container",
+        "[class*='cookieyes' i]",
+        ".cky-btn"
+      ],
+      "reject_selectors": [
+        ".cky-btn-reject",
+        "button.cky-btn-reject",
+        "button.cky-btn[aria-label*='reject' i]"
+      ],
+      "reject_text_patterns": [
+        "reject",
+        "decline",
+        "refuse",
+        "only necessary",
+        "necessary only"
+      ]
+    },
+    {
+      "name": "Iubenda",
+      "detect_selectors": [
+        "#iubenda-cs-banner",
+        "div.iubenda-cs-content",
+        "[class*='iubenda-cs-banner']"
+      ],
+      "reject_selectors": [],
+      "reject_text_patterns": [
+        "reject",
+        "decline",
+        "refuse",
+        "only necessary",
+        "necessary only"
+      ]
+    }
+  ]
+}

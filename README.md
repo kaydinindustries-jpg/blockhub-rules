@@ -150,6 +150,7 @@ BlockHub separates product logic from rule maintenance. Dynamic JSON bundles liv
 - **Service Worker**: Background logic and state management
 - **Vanilla JavaScript**: No frameworks, minimal dependencies
 - **jsDelivr CDN**: Global rule delivery backed by GitHub commits
+- **Advanced Blocking Engine**: High-performance blocking with early CSS injection and fingerprinting
 
 ### File Structure
 ```
@@ -160,16 +161,18 @@ BlockHub separates product logic from rule maintenance. Dynamic JSON bundles liv
   trackers_static.json      # Tracker blocking rules
 /content/
   shared.js                 # Common utilities
+  blocking_engine.js        # Advanced blocking engine (v0.4.0+)
   cookies.js                # Cookie banner blocker
   ai_widgets.js             # AI widget blocker
   ai_terms.js               # AI terms sanitizer
   killlist_blocker.js       # Kill-list executor
+  ad_overlay_blocker.js     # Floating ad blocker
 /ui/
   popup.html                # Extension popup
   popup.js                  # Popup logic
   popup.css                 # Popup styles
-/assets/
-  icons/                    # Extension icons (16, 32, 48, 128)
+/images/
+  icons/                    # Extension icons (16, 32, 40, 48, 128)
 /utils/
   ai_terms.json             # Fallback AI terms
   ai_widget_selectors.json  # Fallback AI widget selectors
@@ -178,6 +181,7 @@ BlockHub separates product logic from rule maintenance. Dynamic JSON bundles liv
   preserve_list.json        # Fallback preserve/safelist
   stoplist.json             # AI term stoplist
   easylist_converter.js     # EasyList to DNR converter
+  generate_index.js         # SHA-256 hash generator
 ```
 
 ### Performance
@@ -188,7 +192,33 @@ BlockHub is designed for minimal performance impact:
 - **Batched processing**: Text nodes processed in batches with time budgets
 - **Smart caching**: Settings cached to avoid repeated storage calls
 - **Early exits**: Skip processing on checkout/payment pages
+- **Protected domains**: 100+ critical domains where blocking engine never runs
 - **Target**: <50ms page load overhead, <20MB memory per tab
+
+### Advanced Blocking Engine (v0.4.0+)
+
+The blocking engine uses a **safety-first approach** that prioritizes page stability:
+
+1. **Protected Domains**
+   - 100+ domains where the engine never runs (Wikipedia, Google services, banking, etc.)
+   - Prevents any possibility of breaking critical websites
+   - Falls back to other content scripts for general blocking
+
+2. **Site-Specific Configurations**
+   - Only runs on sites where selectors have been tested
+   - Google Search: AI Overview and AI Mode button blocking
+   - YouTube: Ad slot renderers and masthead ads
+   - Bing: Copilot container blocking
+
+3. **Conservative MutationObserver**
+   - Only processes after 10+ mutations accumulate
+   - Uses `requestIdleCallback` for non-blocking processing
+   - Handles SPA navigation and page visibility changes
+
+4. **Safe Element Blocking**
+   - Checks preserve list before blocking
+   - Verifies element is visible and substantial
+   - Never blocks invisible or zero-size elements
 
 ## Development
 

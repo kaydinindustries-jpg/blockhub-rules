@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "description": "Selectors and patterns used by BlockHub to detect AI chat widgets across the web.",
+  "selectors": [
+    "[id*='ai-chat-widget' i]",
+    "[class*='ai-chat-widget' i]",
+    "[id*='ai-assistant-widget' i]",
+    "[class*='ai-assistant-widget' i]",
+    "[id*='chatbot-widget' i]",
+    "[class*='chatbot-widget' i]",
+    "[data-testid*='ai-chat' i]",
+    "[data-testid*='chatbot' i]",
+    "[aria-label*='AI chat widget' i]",
+    "[aria-label*='Chat with AI assistant' i]",
+    "iframe[src*='chatgpt']",
+    "iframe[src*='openai.com/chat']",
+    "[class*='chatgpt' i]",
+    "iframe[src*='gemini']",
+    "iframe[src*='bard.google']",
+    "[class*='gemini' i]",
+    "[id*='gemini' i]",
+    "iframe[src*='copilot']",
+    "iframe[src*='bing.com/chat']",
+    "[class*='microsoft-copilot' i]",
+    "iframe[src*='claude.ai']",
+    "[class*='claude' i][class*='chat' i]",
+    "[class*='meta-ai' i]",
+    "[id*='meta-ai' i]",
+    "[data-testid*='grok' i]",
+    "[aria-label*='Grok' i]",
+    "[class*='linkedin'][class*='ai' i]",
+    "[class*='notion'][class*='ai' i]",
+    "#intercom-container",
+    ".intercom-launcher",
+    "[id*='drift' i]",
+    "[class*='drift-widget' i]",
+    "[class*='chat-widget' i]",
+    "[class*='chat-button' i]",
+    "[id*='chat-widget' i]",
+    "[class*='support-chat' i]",
+    "[class*='live-chat' i]"
+  ],
+  "platforms": {
+    "chatgpt": [
+      "iframe[src*='chatgpt']",
+      "iframe[src*='openai.com/chat']",
+      "[class*='chatgpt' i]"
+    ],
+    "gemini": [
+      "iframe[src*='gemini']",
+      "iframe[src*='bard.google']",
+      "[class*='gemini' i]",
+      "[id*='gemini' i]"
+    ],
+    "microsoft_copilot": [
+      "iframe[src*='copilot']",
+      "iframe[src*='bing.com/chat']",
+      "[class*='microsoft-copilot' i]"
+    ],
+    "claude": [
+      "iframe[src*='claude.ai']",
+      "[class*='claude' i][class*='chat' i]"
+    ],
+    "meta_ai": [
+      "[class*='meta-ai' i]",
+      "[id*='meta-ai' i]"
+    ],
+    "grok": [
+      "[data-testid*='grok' i]",
+      "[aria-label*='Grok' i]"
+    ],
+    "linkedin_ai": [
+      "[class*='linkedin'][class*='ai' i]"
+    ],
+    "notion_ai": [
+      "[class*='notion'][class*='ai' i]"
+    ],
+    "intercom": [
+      "#intercom-container",
+      ".intercom-launcher"
+    ],
+    "drift": [
+      "[id*='drift' i]",
+      "[class*='drift-widget' i]"
+    ],
+    "generic_chat": [
+      "[class*='chat-widget' i]",
+      "[class*='chat-button' i]",
+      "[id*='chat-widget' i]",
+      "[class*='support-chat' i]",
+      "[class*='live-chat' i]"
+    ]
+  },
+  "text_patterns": {
+    "en": [
+      "ai assistant",
+      "ai can help",
+      "ai helper",
+      "ai overview",
+      "ai summary",
+      "ai support",
+      "ai-generated summary",
+      "ai-powered",
+      "ask ai",
+      "ask our ai",
+      "ask this pdf",
+      "ask this video",
+      "bard",
+      "chat with ai",
+      "chat with our ai",
+      "chatgpt",
+      "claude",
+      "copilot",
+      "gemini",
+      "generative ai",
+      "gpt-4",
+      "powered by ai",
+      "summarize with ai",
+      "talk to ai",
+      "try our ai",
+      "use ai"
+    ],
+    "fr": [
+      "aide ia",
+      "assistant ia",
+      "demander à l'ia",
+      "discuter avec l'ia",
+      "essayer notre ia",
+      "l'ia peut aider",
+      "parler à l'ia",
+      "piloté par ia",
+      "propulsé par ia",
+      "résumer avec l'ia",
+      "résumé généré par l'ia",
+      "utiliser l'ia",
+      "vue d'ensemble ia"
+    ],
+    "de": [
+      "ki fragen",
+      "ki verwenden",
+      "ki-assistent",
+      "ki-generierte zusammenfassung",
+      "ki-helfer",
+      "ki-unterstützt",
+      "ki-übersicht",
+      "mit ki chatten",
+      "mit ki sprechen",
+      "mit ki zusammenfassen",
+      "unsere ki"
+    ],
+    "es": [
+      "asistente ia",
+      "ayudante ia",
+      "chatear con ia",
+      "hablar con ia",
+      "impulsado por ia",
+      "preguntar a ia",
+      "prueba nuestra ia",
+      "resumen con ia",
+      "resumen generado por ia",
+      "usar ia",
+      "vista general de ia"
+    ],
+    "it": [
+      "chiedi all'ia",
+      "chatta con ia",
+      "parla con ia",
+      "assistente ia",
+      "aiutante ia",
+      "alimentato da ia",
+      "prova la nostra ia",
+      "usa ia"
+    ],
+    "pt": [
+      "perguntar à ia",
+      "conversar com ia",
+      "falar com ia",
+      "assistente ia",
+      "ajudante ia",
+      "impulsionado por ia",
+      "experimentar nossa ia",
+      "usar ia"
+    ],
+    "nl": [
+      "vraag ai",
+      "chat met ai",
+      "praat met ai",
+      "ai-assistent",
+      "ai-helper",
+      "aangedreven door ai",
+      "probeer onze ai",
+      "gebruik ai"
+    ],
+    "pl": [
+      "zapytaj ai",
+      "czat z ai",
+      "rozmawiaj z ai",
+      "asystent ai",
+      "pomoc ai",
+      "zasilany przez ai",
+      "wypróbuj naszą ai",
+      "użyj ai"
+    ],
+    "ja": [
+      "AIに質問",
+      "AIとチャット",
+      "AIと話す",
+      "AIアシスタント",
+      "AIヘルパー",
+      "AI搭載",
+      "AIを試す",
+      "AIを使う"
+    ],
+    "ko": [
+      "AI에게 물어보기",
+      "AI와 채팅",
+      "AI와 대화",
+      "AI 도우미",
+      "AI 지원",
+      "AI 기반",
+      "AI를 사용",
+      "AI 체험"
+    ],
+    "zh": [
+      "询问AI",
+      "与AI聊天",
+      "与AI对话",
+      "AI助手",
+      "AI帮助",
+      "AI驱动",
+      "试用AI",
+      "使用AI"
+    ]
+  }
+}

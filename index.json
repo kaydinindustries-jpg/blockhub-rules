@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-11-26T11:44:33.628Z",
+  "lastUpdated": "2025-11-27T11:47:37.177Z",
   "files": {
     "aiTerms": {
       "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/rules/cdn/v1/ai_terms.json",
@@ -19,13 +19,13 @@
     },
     "killList": {
       "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/rules/cdn/v1/kill_list.json",
-      "sha256": "934c3d83e31165cc3714d8966bb3b4ca2248e582e0907ca10ffcc0222a06cb67",
-      "size": 46776
+      "sha256": "1554b4665ec471b67f74689428246e525742680ae856781a1e238577e732a90f",
+      "size": 104494
     },
     "preserveList": {
       "url": "https://cdn.jsdelivr.net/gh/kaydinindustries-jpg/blockhub-rules@main/rules/cdn/v1/preserve_list.json",
-      "sha256": "f09527070fb79aee91cde62ae05f783f658747b5ec87a00f7f4ff463a9ca3e14",
-      "size": 5666
+      "sha256": "f7b9289c3119d81b86dc77bfa2da8c5c7d553acd361cdfba72c04b18fae12652",
+      "size": 7765
     }
   }
 }

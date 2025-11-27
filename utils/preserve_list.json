@@ -20,7 +20,58 @@
     {
       "locale": "GLOBAL",
       "title": "===== GLOBAL / ALL LANGUAGES =====",
-      "elements": []
+      "elements": [
+        {
+          "id": "yt-masthead-global",
+          "site": "youtube.com",
+          "feature": "YouTube masthead (header bar)",
+          "url": "https://www.youtube.com/",
+          "selector": "ytd-masthead",
+          "cssPath": "ytd-masthead",
+          "jsPath": "document.querySelector('ytd-masthead')",
+          "notes": "Main YouTube header containing logo, search bar, and user controls. Must NEVER be hidden."
+        },
+        {
+          "id": "yt-masthead-container-global",
+          "site": "youtube.com",
+          "feature": "YouTube masthead container",
+          "url": "https://www.youtube.com/",
+          "selector": "ytd-masthead #container",
+          "cssPath": "ytd-masthead #container",
+          "jsPath": "document.querySelector('ytd-masthead #container')",
+          "notes": "Container inside masthead. Must NEVER be hidden."
+        },
+        {
+          "id": "yt-searchbox-global",
+          "site": "youtube.com",
+          "feature": "YouTube search box",
+          "url": "https://www.youtube.com/",
+          "selector": "ytd-masthead yt-searchbox",
+          "cssPath": "ytd-masthead yt-searchbox",
+          "jsPath": "document.querySelector('ytd-masthead yt-searchbox')",
+          "notes": "YouTube search input. Must NEVER be hidden."
+        },
+        {
+          "id": "yt-topbar-logo-global",
+          "site": "youtube.com",
+          "feature": "YouTube logo",
+          "url": "https://www.youtube.com/",
+          "selector": "ytd-masthead #logo",
+          "cssPath": "ytd-masthead #logo",
+          "jsPath": "document.querySelector('ytd-masthead #logo')",
+          "notes": "YouTube logo. Must NEVER be hidden."
+        },
+        {
+          "id": "yt-guide-global",
+          "site": "youtube.com",
+          "feature": "YouTube sidebar navigation",
+          "url": "https://www.youtube.com/",
+          "selector": "ytd-guide-renderer",
+          "cssPath": "ytd-guide-renderer",
+          "jsPath": "document.querySelector('ytd-guide-renderer')",
+          "notes": "YouTube left sidebar. Must NEVER be hidden."
+        }
+      ]
     },
     {
       "locale": "EN",
